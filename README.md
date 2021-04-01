@@ -1,6 +1,6 @@
-# CB-Merchandise
+## CB-Merchandise
 A small lab for class.
 
 Here's a screenshot of the progress:
 
-![Progress](https://github.com/merchp/CB-Merchandise/blob/088840639b7ed22ab845aeb47e1c997b4dbfd8dc/CBMerch%20Lab1C.JPG)
+![Progress](https://github.com/merchp/CB-Merchandise/blob/d2c30325296a54cd8b67ad6c3aad648301636e0e/SportsStore%20Lab%20SS%201.JPG)
