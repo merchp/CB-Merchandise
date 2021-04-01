@@ -15,7 +15,9 @@ namespace CBMerch.Controllers
             repository = repo;
         }
         public ViewResult Index(int productPage = 1)
-       => View(repository.Products
+       => View(new ProductsListViewModel
+       {
+           Products = repository.Products
            .OrderBy(p => p.ProductID)
            .Skip((productPage - 1) * PageSize)
            .Take(PageSize),
@@ -25,8 +27,9 @@ namespace CBMerch.Controllers
                ItemsPerPage = PageSize,
                TotalItems = repository.Products.Count()
            }
-           });
+       });
     }
+}
 
    
-}
+

@@ -3,7 +3,7 @@ namespace CBMerch.Models
 {
     public class Product
     {
-        public long ProductId { get; set; }
+        public long ProductID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
