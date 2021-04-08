@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBMerch", "CBMerch\CBMerch.csproj", "{73AFA198-5C16-454D-9FE1-1997F771EAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBMerch", "CBMerch\CBMerch.csproj", "{73AFA198-5C16-454D-9FE1-1997F771EAE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBMerch.Tests", "CBMerch.Tests\CBMerch.Tests.csproj", "{A2EDFE77-C76D-44AF-95E1-48087F63FA00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBMerch.Tests", "CBMerch.Tests\CBMerch.Tests.csproj", "{A2EDFE77-C76D-44AF-95E1-48087F63FA00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{73AFA198-5C16-454D-9FE1-1997F771EAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +41,11 @@ Global
 		{A2EDFE77-C76D-44AF-95E1-48087F63FA00}.Release|x64.Build.0 = Release|Any CPU
 		{A2EDFE77-C76D-44AF-95E1-48087F63FA00}.Release|x86.ActiveCfg = Release|Any CPU
 		{A2EDFE77-C76D-44AF-95E1-48087F63FA00}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF91C063-7A80-4ECC-8B7F-A567887823DB}
 	EndGlobalSection
 EndGlobal
